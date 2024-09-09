@@ -1,10 +1,10 @@
-import Dropzone from "../DropZone/Dropzone.jsx";
+import FileUploadForm from "./FileUploadForm";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Dropzone />
+      <FileUploadForm />
     </div>
   );
 }
